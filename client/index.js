@@ -1,21 +1,14 @@
 
 console.log('Hello World');
 
-fetch('/products')
-  .then(function(response) {
-    return response.json();
-  })
-  .then(function(products) {
-    console.log(products);
-  });
-
-interface Product {
-  name: string;
-  price: number;
-  currency: string;
-  photo: string;
-  description: string;
-}
+// fetch('/products')
+//   .then(function(response) {
+//     return response.json();
+//   })
+//   .then(function(products) {
+//     console.log(products);
+//   });
+//
 
 // function renederProducts(products: Product[]){
 //   const container = document.querySelector("#container");

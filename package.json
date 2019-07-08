@@ -2,8 +2,11 @@
   "name": "untitled",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+     "node" : "10.15.3"
+  },
   "scripts": {
-    "start": "if [[ $NODE_ENV == 'production' ]]; then node ./bin/www; else nodemon ./bin/www; fi"
+    "start:server": "node  server/app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
